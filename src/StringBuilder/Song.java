@@ -11,6 +11,9 @@ public class Song {
         this.text = text;
     }
 
+    public Song() {
+    }
+
     public String getTitle() {
         return title;
     }
@@ -31,8 +34,9 @@ public class Song {
         return text;
     }
 
-    public void setText(String text) {
+    public CharSequence setText(String text) {
         this.text = text;
+        return null;
     }
 
     @Override
