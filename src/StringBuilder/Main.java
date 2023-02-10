@@ -30,8 +30,9 @@ public class Main {
 
         song.setTitle(sc.nextLine());
         song.setAuthor(sc.nextLine());
+        while (sc.hasNext()){
             builder.append(song.setText(sc.nextLine()));
-
+    }
 
 
          reader.close();
