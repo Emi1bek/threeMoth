@@ -12,16 +12,16 @@ public class Main {
 
         Song song = new Song();
         FileWriter fileWriter = new FileWriter("Song.txt");
-        fileWriter.write("Nothing else matters\n");
-        fileWriter.write("Metallica\n");
-        fileWriter.write("So close, no matter how far\n" );
-                fileWriter.write(       "Couldn't be much more from the heart\n" );
-                        fileWriter.write(       "Forever trusting who we are\n" );
-                                fileWriter.write(       "And nothing else matters\n" );
-                                        fileWriter.write(       "Never opened myself this way\n" );
-                                                fileWriter.write(       "Life is ours, we live it our way\n" );
-                                                        fileWriter.write(       "All these words I don't just say\n" );
-                                                                fileWriter.write(        "And nothing else matters");
+        fileWriter.write("Titile: Nothing else matters\n");
+        fileWriter.write("Author: Metallica\n");
+        fileWriter.write("Text: So close, no matter how far\n" +
+                "Couldn't be much more from the heart\n" +
+                       "Forever trusting who we are\n" +
+                               "And nothing else matters\n" +
+                                        "Never opened myself this way\n" +
+                                                "Life is ours, we live it our way\n" +
+                                                       "All these words I don't just say\n" +
+                                                 "And nothing else matters");
         fileWriter.close();
 
         FileReader reader = new FileReader("Song.txt");
@@ -30,15 +30,13 @@ public class Main {
 
         song.setTitle(sc.nextLine());
         song.setAuthor(sc.nextLine());
-        while (sc.hasNext()){
-            builder.append(song.setText(sc.nextLine()));
-    }
 
 
          reader.close();
 
 
         System.out.println(song);
+        System.out.println(song.getText());
 
 
 
