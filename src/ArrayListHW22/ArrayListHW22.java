@@ -6,7 +6,11 @@ import java.util.Scanner;
 
 public class ArrayListHW22 {
     public static void main(String[] args) {
-        //   Scanner sc = new Scanner(System.in);
+        //ArrayList тузунуз
+        //1ден 100го чейинки 50 сан менен толтурунуз
+        //Дагы 2 ArrayList тузуп бирисине так сандарды, экинчисине жуп сандарды салыныз
+        //Аларды консольго чыгарыныз
+
         ArrayList<Integer> a = new ArrayList();
         ArrayList<Integer> tak = new ArrayList();
         ArrayList<Integer> jup = new ArrayList();
