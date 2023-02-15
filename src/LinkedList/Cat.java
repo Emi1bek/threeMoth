@@ -5,4 +5,11 @@ public class Cat extends Animal{
     public Cat(int id, int age) {
         super(id, age);
     }
+    @Override
+    public String toString() {
+        return "cat: " +
+                "id=" + id +
+                ", age=" + age +
+                '}';
+    }
 }

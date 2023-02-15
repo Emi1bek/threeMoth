@@ -12,10 +12,18 @@ public class LinkedListHW {
                 new Cat(1, 16),
                 new Cat(2, 15),
                 new Cat(3, 14),
-                new Dog(4, 14),
+                new Cat(4, 14),
+                new Cat(5, 14),
+                new Dog(1, 14),
+                new Dog(2, 10),
+                new Dog(3, 10),
+                new Dog(4, 10),
                 new Dog(5, 10),
-                new Mous(6, 9),
-                new Mous(7, 10)
+                new Mous(1, 9),
+                new Mous(2, 9),
+                new Mous(3, 9),
+                new Mous(4, 9),
+                new Mous(5, 10)
         };
 
 
