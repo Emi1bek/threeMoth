@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d513007-0ba1-4be5-836a-e81d8a579ea3" name="Changes" comment="com1" />
+    <list default="true" id="1d513007-0ba1-4be5-836a-e81d8a579ea3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ArrayListTask/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArrayListTask/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LinkedList/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LinkedList/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LinkedList/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LinkedList/LinkedListHW.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LinkedList/Mous.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UserTask/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UserTask/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UserTask/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,7 +48,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/user/IdeaProjects/oopHW15/src/HW15",
+    "last_opened_file_path": "C:/Users/user/IdeaProjects/oopHW15",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -44,13 +56,26 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ArrayListHW22">
+  <component name="RunManager" selected="Application.LinkedListHW">
     <configuration name="ArrayListHW22" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArrayListHW22.ArrayListHW22" />
       <module name="threeMoth" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ArrayListHW22.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayListTask.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArrayListTask.Main" />
+      <module name="threeMoth" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ArrayListTask.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -71,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Enum.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Enum.Main" />
+    <configuration name="LinkedListHW" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LinkedList.LinkedListHW" />
       <module name="threeMoth" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Enum.*" />
+          <option name="PATTERN" value="LinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,25 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringBuilderHW21.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StringBuilderHW21.Main" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="UserTask.Main" />
       <module name="threeMoth" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="StringBuilderHW21.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StringBuilder.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StringBuilder.Main" />
-      <module name="threeMoth" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="StringBuilder.*" />
+          <option name="PATTERN" value="UserTask.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LinkedListHW" />
+        <item itemvalue="Application.ArrayListTask.Main" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.ArrayListHW22" />
         <item itemvalue="Application.ArrayList.Main" />
-        <item itemvalue="Application.StringBuilderHW21.Main" />
-        <item itemvalue="Application.StringBuilder.Main" />
-        <item itemvalue="Application.Enum.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -129,7 +141,11 @@
       <option name="presentableId" value="Default" />
       <updated>1675701012659</updated>
       <workItem from="1675701013942" duration="11590000" />
-      <workItem from="1676047143128" duration="15170000" />
+      <workItem from="1676047143128" duration="16034000" />
+      <workItem from="1676386764186" duration="6034000" />
+      <workItem from="1676398912456" duration="12000" />
+      <workItem from="1676399120749" duration="1121000" />
+      <workItem from="1676477610844" duration="3049000" />
     </task>
     <task id="LOCAL-00001" summary="com">
       <created>1675705009134</created>
@@ -194,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676313071959</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="com1">
+      <created>1676313440242</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1676313440242</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,27 +233,27 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/ArrayListHW22/ArrayListHW22.java</url>
-          <line>13</line>
+          <line>17</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/ArrayListHW22/ArrayListHW22.java</url>
-          <line>12</line>
+          <line>16</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/ArrayListHW22/ArrayListHW22.java</url>
-          <line>9</line>
+          <line>13</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/ArrayListHW22/ArrayListHW22.java</url>
-          <line>14</line>
+          <line>18</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/ArrayListHW22/ArrayListHW22.java</url>
-          <line>17</line>
+          <line>21</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
