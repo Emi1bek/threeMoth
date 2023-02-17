@@ -20,6 +20,8 @@ public class Main {
         hashSet.add(student4);
         hashSet.add(student5);
 
+        //  hashSet.add(new Student("a",1),new Student())
+
         System.out.println(hashSet);
 
     }
