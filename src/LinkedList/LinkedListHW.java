@@ -39,6 +39,11 @@ public class LinkedListHW {
             }
 
         }
+//
+//        for (A:
+//             ) {
+//
+//        }
         System.out.println(linkedList);
     }
 
