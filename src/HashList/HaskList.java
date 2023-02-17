@@ -1,7 +1,6 @@
 package HashList;
 
-import java.util.ArrayList;
-import java.util.Random;
+import java.util.*;
 
 public class HaskList {
     public static void main(String[] args) {
@@ -20,6 +19,17 @@ public class HaskList {
 
         }
         System.out.println(sum);
+        LinkedHashSet<Integer> hashSet= new LinkedHashSet<>();
+       hashSet.addAll(arrayList);
+        for (Integer ar : hashSet
+        ) {
+            sum += ar;
+
+        }
+        System.out.println(sum);
+
+        //HaskList<Integer> hashList =new HaskList<>();
+
 
     }
 
