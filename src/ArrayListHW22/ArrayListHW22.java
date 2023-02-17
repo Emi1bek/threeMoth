@@ -14,7 +14,7 @@ public class ArrayListHW22 {
         ArrayList<Integer> a = new ArrayList();
         ArrayList<Integer> tak = new ArrayList();
         ArrayList<Integer> jup = new ArrayList();
-        Random rd = new Random(100);
+        Random rd = new Random();
         for (int i = 1; i < 50; i++) {
             a.add(rd.nextInt(1, 50));
         }
