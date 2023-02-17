@@ -11,12 +11,14 @@ public class Main {
        Student student2 = new Student("a",1);
        Student student3= new Student("a",1);
        Student student4 = new Student("a",1);
+       Student student5 = new Student("a",1);
 
         LinkedHashSet<Student> hashSet = new LinkedHashSet<>();
         hashSet.add(student);
         hashSet.add(student2);
         hashSet.add(student3);
         hashSet.add(student4);
+        hashSet.add(student5);
 
         System.out.println(hashSet);
 
