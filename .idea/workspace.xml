@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d513007-0ba1-4be5-836a-e81d8a579ea3" name="Changes" comment="Создано новое файл">
+      <change afterPath="$PROJECT_DIR$/src/HashList/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HashList/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArrayListHW22/ArrayListHW22.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArrayListHW22/ArrayListHW22.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,13 +48,26 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.HaskList">
+  <component name="RunManager" selected="Application.HashList.Main">
     <configuration name="ArrayListTask.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArrayListTask.Main" />
       <module name="threeMoth" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ArrayListTask.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HashList.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HashList.Main" />
+      <module name="threeMoth" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HashList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,26 +114,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="UserTask.Main" />
-      <module name="threeMoth" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="UserTask.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HashList.Main" />
         <item itemvalue="Application.HaskList" />
         <item itemvalue="Application.HomeWord22" />
         <item itemvalue="Application.LinkedListHW" />
         <item itemvalue="Application.ArrayListTask.Main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -137,7 +138,7 @@
       <workItem from="1676398912456" duration="12000" />
       <workItem from="1676399120749" duration="1121000" />
       <workItem from="1676477610844" duration="4848000" />
-      <workItem from="1676645096964" duration="5008000" />
+      <workItem from="1676645096964" duration="5553000" />
     </task>
     <task id="LOCAL-00001" summary="com">
       <created>1675705009134</created>
@@ -251,7 +252,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676652849081</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Создано новое файл">
+      <created>1676653184252</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1676653184252</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -339,6 +347,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/HashList/Main.java</url>
+          <line>8</line>
+          <properties class="HashList.Main" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
