@@ -16,15 +16,18 @@ public class LinkedListHW {
             linkedList.add(new Cat(i, random));
             linkedList.add(new Dog(i, random));
             linkedList.add(new Mous(i, random));
-            for (int j = 3; j < linkedList.size(); j += 3) {
-                if (linkedList.get(j) instanceof Dog) {
-                    linkedList.add(new Mous(i, random));
-                }
+
+        }
+        for (int j = 3; j < linkedList.size(); j += 3) {
+
+            int random = rd.nextInt(1, 10);
+            if (linkedList.get(j) instanceof Dog) {
+                linkedList.add(new Mous(j, random));
             }
-            for (int j = 5; j < linkedList.size(); j += 5) {
-                if(linkedList.get(j) instanceof Mous) {
-                    linkedList.remove(j);
-                }
+        }
+        for (int j = 5; j < linkedList.size(); j += 5) {
+            if(linkedList.get(j) instanceof Mous) {
+                linkedList.remove(j);
             }
         }
 

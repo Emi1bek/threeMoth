@@ -9,6 +9,6 @@ public class Dog extends Animal{
         return "Dog: " +
                 "id=" + id +
                 ", age=" + age +
-                ": ";
+                ":\n ";
     }
 }

@@ -9,6 +9,6 @@ public class Mous extends Animal{
         return "Mous: " +
                 "id=" + id +
                 ", age=" + age +
-                ": ";
+                ":\n ";
     }
 }
