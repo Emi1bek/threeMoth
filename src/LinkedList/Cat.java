@@ -10,6 +10,6 @@ public class Cat extends Animal{
         return "cat: " +
                 "id=" + id +
                 ", age=" + age +
-                '}';
+                ":";
     }
 }

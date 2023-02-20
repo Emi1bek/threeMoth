@@ -1,50 +1,45 @@
 package LinkedList;
 
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.LinkedList;
+import java.util.*;
 
 public class LinkedListHW {
 
     public static void main(String[] args) throws IOException {
-        Animal[] animals = {
-                new Cat(1, 16),
-                new Cat(2, 15),
-                new Cat(3, 14),
-                new Cat(4, 14),
-                new Cat(5, 14),
-                new Dog(1, 14),
-                new Dog(2, 10),
-                new Dog(3, 10),
-                new Dog(4, 10),
-                new Dog(5, 10),
-                new Mous(1, 9),
-                new Mous(2, 9),
-                new Mous(3, 9),
-                new Mous(4, 9),
-                new Mous(5, 10)
-        };
-
+        Random rd = new Random();
+        Scanner sc = new Scanner(System.in);
 
         LinkedList<Animal> linkedList = new LinkedList<>();
-
-        for (Animal animal : animals) {
-            if (animal instanceof Cat) {
-                linkedList.addFirst(animal);
-            } else if (animal instanceof Mous) {
-                linkedList.addLast(animal);
-            } else {
-                linkedList.add(animal);
+        int summ = 0;
+        for (int i = 1; i <= 50; i++) {
+            int random = rd.nextInt(1, 10);
+            linkedList.add(new Cat(i, random));
+            linkedList.add(new Dog(i, random));
+            linkedList.add(new Mous(i, random));
+            for (int j = 3; j < linkedList.size(); j += 3) {
+                if (linkedList.get(j) instanceof Dog) {
+                    linkedList.add(new Mous(i, random));
+                }
             }
-
+            for (int j = 5; j < linkedList.size(); j += 5) {
+                if(linkedList.get(j) instanceof Mous) {
+                    linkedList.remove(j);
+                }
+            }
         }
-//
-//        for (A:
-//             ) {
-//
-//        }
+
+        for (Animal a : linkedList) {
+            summ += a.getAge();
+        }
         System.out.println(linkedList);
-    }
+        ArrayList<Animal> arrayListAnimal = new ArrayList<>();
+        arrayListAnimal.addAll(linkedList);
+        System.out.println(summ);
+
 
     }
+}
+
+
+
+

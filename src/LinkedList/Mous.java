@@ -6,9 +6,9 @@ public class Mous extends Animal{
     }
     @Override
     public String toString() {
-        return "Mous{" +
+        return "Mous: " +
                 "id=" + id +
                 ", age=" + age +
-                '}';
+                ": ";
     }
 }

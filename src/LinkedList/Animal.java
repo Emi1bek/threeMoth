@@ -30,6 +30,6 @@ public class Animal {
         return "Animal{" +
                 "id=" + id +
                 ", age=" + age +
-                '}';
+                "}\n";
     }
 }
