@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d513007-0ba1-4be5-836a-e81d8a579ea3" name="Changes" comment="Уй тапшырма">
-      <change afterPath="$PROJECT_DIR$/src/Map/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Map/City.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Map/HistoryCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Map/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedList/LinkedListHW.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/LinkedListHW.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Map/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Map/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,7 +139,7 @@
       <workItem from="1676477610844" duration="4848000" />
       <workItem from="1676645096964" duration="9080000" />
       <workItem from="1676708468735" duration="4817000" />
-      <workItem from="1676906825992" duration="8014000" />
+      <workItem from="1676906825992" duration="8145000" />
     </task>
     <task id="LOCAL-00001" summary="com">
       <created>1675705009134</created>
@@ -299,7 +295,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676908343240</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Уй тапшырма">
+      <created>1676917543263</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1676917543263</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -342,27 +345,27 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Map/Main.java</url>
-          <line>53</line>
+          <line>56</line>
           <option name="timeStamp" value="25" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Map/Main.java</url>
-          <line>54</line>
+          <line>57</line>
           <option name="timeStamp" value="26" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Map/Main.java</url>
-          <line>55</line>
+          <line>58</line>
           <option name="timeStamp" value="27" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Map/Main.java</url>
-          <line>56</line>
+          <line>59</line>
           <option name="timeStamp" value="28" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Map/Main.java</url>
-          <line>65</line>
+          <line>67</line>
           <option name="timeStamp" value="29" />
         </line-breakpoint>
       </breakpoints>
