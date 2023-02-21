@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d513007-0ba1-4be5-836a-e81d8a579ea3" name="Changes" comment="Уй тапшырма">
-      <change afterPath="$PROJECT_DIR$/src/Map/MainOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PractikOne/BankAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PractikOne/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PractikOne/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Map/City.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Map/City.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Map/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Map/Main.java" afterDir="false" />
+    <list default="true" id="1d513007-0ba1-4be5-836a-e81d8a579ea3" name="Changes" comment="Nfgishvf">
+      <change beforePath="$PROJECT_DIR$/src/PractikOne/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PractikOne/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +140,7 @@
       <workItem from="1676708468735" duration="4817000" />
       <workItem from="1676906825992" duration="8257000" />
       <workItem from="1676917746687" duration="70000" />
-      <workItem from="1676990368219" duration="6080000" />
+      <workItem from="1676990368219" duration="6143000" />
     </task>
     <task id="LOCAL-00001" summary="com">
       <created>1675705009134</created>
@@ -316,7 +310,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676917600182</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Nfgishvf">
+      <created>1677000234045</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1677000234045</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -327,7 +328,8 @@
     <MESSAGE value="com1" />
     <MESSAGE value="Создано новое файл" />
     <MESSAGE value="Уй тапшырма" />
-    <option name="LAST_COMMIT_MESSAGE" value="Уй тапшырма" />
+    <MESSAGE value="Nfgishvf" />
+    <option name="LAST_COMMIT_MESSAGE" value="Nfgishvf" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

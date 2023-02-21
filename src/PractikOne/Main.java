@@ -32,8 +32,7 @@ public class Main {
     }
 
     public static void  transaction(Map<User, BankAccount> userBankAccountMap, User user, double var){
-        Scanner sc = new Scanner(System.in);
-        var = sc.nextDouble();
+
         userBankAccountMap.put(user,new BankAccount(var));
 
     }
